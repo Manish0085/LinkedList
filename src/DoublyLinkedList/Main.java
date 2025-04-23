@@ -35,7 +35,7 @@ public class Main {
         //Traversing.traverseDLL(head);
 
         //Reverse DLL
-        Traversing.traverseDLL(Reverse.bruteForce(head));
+        Traversing.traverseDLL(Reverse.optimized(head));
 
     }
 }
