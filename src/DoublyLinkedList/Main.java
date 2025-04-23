@@ -18,7 +18,21 @@ public class Main {
         //Traversing.traverseDLL(Deletion.deleteKthNode(head, 4));
 
         //Delete given node from DLL
-        Deletion.deleteGivenNodE(head.next.next );
+        //Deletion.deleteGivenNodE(head.next.next );
+        //Traversing.traverseDLL(head);
+
+        //Insert new head in DLL
+        //Traversing.traverseDLL(Insertion.insertAsFirst(head, 12));
+
+        //Insert new node before tail in DLL
+        //Traversing.traverseDLL(Insertion.insertBeforeTail(head, 12));
+
+        //Insert new node at kth position in DLL
+        //Traversing.traverseDLL(Insertion.insertAtKthPos(head, 3, 12));
+
+        //Insert new node before the given node in DLL
+        Insertion.insertBeforeGivenNode(head.next.next, 33);
         Traversing.traverseDLL(head);
+
     }
 }
