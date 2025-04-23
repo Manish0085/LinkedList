@@ -31,8 +31,11 @@ public class Main {
         //Traversing.traverseDLL(Insertion.insertAtKthPos(head, 3, 12));
 
         //Insert new node before the given node in DLL
-        Insertion.insertBeforeGivenNode(head.next.next, 33);
-        Traversing.traverseDLL(head);
+        //Insertion.insertBeforeGivenNode(head.next.next, 33);
+        //Traversing.traverseDLL(head);
+
+        //Reverse DLL
+        Traversing.traverseDLL(Reverse.bruteForce(head));
 
     }
 }
