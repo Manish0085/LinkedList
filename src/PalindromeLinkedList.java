@@ -10,6 +10,7 @@ public class PalindromeLinkedList {
 
 
         Stack<Integer> stack = new Stack<>();
+
         Node temp = head;
         while (temp != null){
             stack.push(temp.data);
